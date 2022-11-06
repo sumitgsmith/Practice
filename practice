@@ -1,0 +1,16 @@
+def scount(x):
+  count = 0
+  number = eval(input("Enter your number"))
+  if number in x :
+    count = 0
+    for i in x :
+      if i == number:
+        count+=1
+    return(count)
+  else : 
+    print(f"No.{number} is not found")       
+  
+
+l = [1,2,3,3,3,3,3,4,5]
+l1 ="sumit verma"
+print(scount(l))
